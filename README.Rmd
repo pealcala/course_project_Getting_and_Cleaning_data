@@ -1,0 +1,26 @@
+---
+title: "Proyecto del curso Getting and Cleaning Data"
+author: "Pedro alcala"
+date: "22/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resumen
+
+El proyecto de la semana 4 **"Getting and Cleaning Data"** de Coursera. Contiene código R, libro de códigos y un conjunto de datos ordenado para la asignación.
+
+
+**CodeBook.md** describe cómo usar todo, las variables, los datos y cualquier transformación o trabajo que se realizó para limpiar los datos.
+
+**run_analysis.R** contiene el código en R para realizar los análisis descritos en los 5 pasos. Se pueden iniciar en RStudio con solo importar el archivo. Estos son los pasos:
+
+* Fusiona los conjuntos de entrenamiento y prueba para crear un conjunto de datos.
+* Extrae solo las medidas de la desviación estándar y media de cada medida.
+* Utiliza nombres de actividades descriptivos para nombrar las actividades en el conjunto de datos
+* Etiqueta adecuadamente el conjunto de datos con nombres de variables descriptivos.
+* A partir del conjunto de datos del paso 4, crea un segundo conjunto de datos ordenado e independiente con el promedio de cada variable para cada actividad y cada tema.
+* **tidyData.txt** es el resultado del paso final
